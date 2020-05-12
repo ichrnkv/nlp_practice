@@ -5,7 +5,6 @@ def calc_logits(matrix):
     """
     Self-attention Logits
     :param matrix: numpy matrix
-    :return:
     """
     return np.dot(matrix, np.transpose(matrix))
 

@@ -5,7 +5,6 @@ def calc_logits(matrix):
     """
     Self-attention Logits
     :param matrix: numpy matrix
-    :return:
     """
     return np.dot(matrix, np.transpose(matrix))
 
@@ -14,7 +13,6 @@ def rows_softmax(matrix):
     """
     Softmax by rows
     :param matrix: numpy matrix
-    :return:
     """
     att_scores = np.zeros((matrix.shape))
     for i, row in enumerate(matrix):
