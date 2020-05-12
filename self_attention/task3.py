@@ -1,3 +1,4 @@
+# simple self-attention
 import numpy as np
 
 
